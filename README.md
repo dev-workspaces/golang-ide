@@ -1,10 +1,5 @@
 # Golang Project
 
-
-```bash
-git config --list
-```
-
 ## Set the username
 
 Use the user name you're using for the host: `USER_NAME=k33g` (to keep your git credentials)
@@ -25,4 +20,9 @@ services:
     environment:
       - MESSAGE="Hello World!"
     command: sleep infinity
+```
+
+> Check:
+```bash
+git config --list
 ```
